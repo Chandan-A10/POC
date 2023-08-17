@@ -16,6 +16,7 @@ In order to enable caching, import the ``CacheModule`` from ``@nestjs/cache-mana
   import { CacheModule } from '@nestjs/cache-manager';
   import { redisStore } from 'cache-manager-redis-yet';
 ```
+Note: Your redis server should be running at port specified (here :6379).
 ## Step 2: Configure Cache Store with Redis
 In this step, we will configure the cache store of our Nest.js application to use Redis.
 
